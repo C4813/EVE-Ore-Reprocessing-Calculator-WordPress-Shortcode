@@ -2,7 +2,7 @@
 /*
 Plugin Name: EVE Ore Reprocessing Calculator
 Description: Adds a shortcode [reprocessing_calculator] to display an EVE Online Ore Reprocessing Calculator.
-Version: 2
+Version: 2.0.1
 Author: C4813
 */
 
@@ -37,7 +37,7 @@ function eve_reprocessing_calculator_shortcode() {
                     <option value="none">None</option>
                     <option value="801">RX-801 (+1%)</option>
                     <option value="802">RX-802 (+2%)</option>
-                    <option value="804">RX-804 (+4%)</option>
+                    <option value="804" selected>RX-804 (+4%)</option>
                 </select>
             </div>
 
@@ -93,7 +93,7 @@ function eve_reprocessing_calculator_shortcode() {
                         echo '<div class="ore-skill-line">';
                         echo '<label>' . $label . '</label>';
                         echo '<div class="ore-skill-entry">';
-                        echo '<input type="number" id="' . $id . '" name="' . $id . '" min="0" max="5" value="0">';
+                        echo '<input type="number" id="' . $id . '" name="' . $id . '" min="0" max="5" value="5">';
                         echo '<span id="yield-' . $id . '" class="yield-value">0.00%</span>';
                         echo '</div></div>';
                     }
