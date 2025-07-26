@@ -1,0 +1,75 @@
+.reprocessing-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.reprocessing-column label input[type="number"] {
+  width: 70px;
+  text-align: center;
+}
+
+.reprocessing-column h3,
+.ore-skills-section h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.reprocessing-column label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-weight: normal;
+}
+
+.ore-skills-section {
+  margin-top: 30px;
+}
+
+#ore-skills-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.ore-skill-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ore-skill-line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ore-skill-line label {
+  margin-bottom: 4px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.ore-skill-entry {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ore-skill-entry input[type="number"] {
+  width: 70px;
+  text-align: center;
+}
+
+.yield-value {
+  min-width: 60px;
+  text-align: right;
+}
+.reprocessing-column select {
+  width: 220px; /* Match this to the Structure box width */
+}
