@@ -118,6 +118,22 @@ const oreData = {
   "Augmented Eifyrium": {
     "Zydrine": 306.0
   },
+  "Griemeer": {
+    "Tritanium": 250.0,
+    "Isogen": 80.0
+  },
+  "Clear Griemeer": {
+    "Tritanium": 263.0,
+    "Isogen": 84.0
+  },
+  "Inky Griemeer": {
+    "Tritanium": 275.0,
+    "Isogen": 88.0
+  },
+  "Opaque Griemeer": {
+    "Tritanium": 288.0,
+    "Isogen": 92.0
+  },
   "Gneiss": {
     "Pyerite": 2000.0,
     "Mexallon": 1500.0,
@@ -170,6 +186,26 @@ const oreData = {
     "Isogen": 276.0,
     "Nocxium": 104.0
   },
+  "Hezorime": {
+	"Tritanium": 2000.0,
+	"Isogen": 120.0,
+	"Zydrine": 60.0
+  },
+  "Dull Hezorime": {
+	"Tritanium": 2100.0,
+	"Isogen": 126.0,
+	"Zydrine": 63.0
+  },
+  "Serrated Hezorime": {
+	"Tritanium": 2200.0,
+	"Isogen": 132.0,
+	"Zydrine": 66.0
+  },
+  "Sharp Hezorime": {
+	"Tritanium": 2300.0,
+	"Isogen": 138.0,
+	"Zydrine": 69.0
+  },
   "Jaspet": {
     "Mexallon": 150.0,
     "Nocxium": 50.0
@@ -202,6 +238,26 @@ const oreData = {
     "Mexallon": 69.0,
     "Isogen": 138.0
   },
+  "Kylixium": {
+	"Tritanium": 300.0,
+	"Pyerite": 200.0,
+	"Mexallon": 550.0
+  },
+  "Kaolin Kylixium": {
+	"Tritanium": 315.0,
+	"Pyerite": 210.0,
+	"Mexallon": 578.0
+  },
+  "Argil Kylixium": {
+	"Tritanium": 330.0,
+	"Pyerite": 220.0,
+	"Mexallon": 605.0
+  },
+  "Adobe Kylixium": {
+	"Tritanium": 345.0,
+	"Pyerite": 230.0,
+	"Mexallon": 633.0
+  },
   "Mercoxit": {
     "Morphite": 140.0
   },
@@ -222,6 +278,26 @@ const oreData = {
   },
   "Plunder Mordunium": {
     "Pyerite": 101.0
+  },
+  "Nocxite": {
+    "Tritanium": 900.0,
+    "Pyerite": 150.0,
+    "Nocxium": 105.0
+  },
+  "Fragrant Nocxite": {
+    "Tritanium": 945.0,
+    "Pyerite": 158.0,
+    "Nocxium": 111.0
+  },
+  "Intoxicating Nocxite": {
+    "Tritanium": 990.0,
+    "Pyerite": 165.0,
+    "Nocxium": 116.0
+  },
+  "Ambrosial Nocxite": {
+    "Tritanium": 1035.0,
+    "Pyerite": 173.0,
+    "Nocxium": 121.0
   },
   "Omber": {
     "Pyerite": 90.0,
@@ -347,7 +423,23 @@ const oreData = {
   },
   "Veldspar": {
     "Tritanium": 400.0
+  },  
+  "Ueganite": {
+    "Tritanium": 800.0,
+    "Megacyte": 40.0
   },
+  "Foggy Ueganite": {
+    "Tritanium": 840.0,
+    "Megacyte": 42.0
+  },
+  "Overcast Ueganite": {
+    "Tritanium": 880.0,
+    "Megacyte": 44.0
+  },
+  "Stormy Ueganite": {
+    "Tritanium": 920.0,
+    "Megacyte": 46.0
+  },  
   "Concentrated Veldspar": {
     "Tritanium": 420.0
   },
