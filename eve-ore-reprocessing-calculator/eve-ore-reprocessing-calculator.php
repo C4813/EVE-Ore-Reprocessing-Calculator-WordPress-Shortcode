@@ -52,14 +52,14 @@ function eve_reprocessing_calculator_shortcode() {
                 </label>
                 <label>Security
                     <select id="sec" name="sec">
-                        <option value="hisec">Highsec</option>
+                        <option value="hisec" selected>Highsec</option>
                         <option value="lowsec">Lowsec</option>
                         <option value="nullsec">Null/J-space</option>
                     </select>
                 </label>
                 <label>Rig
                     <select id="rig" name="rig">
-                        <option value="none">None</option>
+                        <option value="none" selected>None</option>
                         <option value="t1">T1</option>
                         <option value="t2">T2</option>
                     </select>
