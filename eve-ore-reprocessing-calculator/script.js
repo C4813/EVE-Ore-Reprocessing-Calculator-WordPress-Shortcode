@@ -97,6 +97,10 @@ document.getElementById("calculate-button").addEventListener("click", (e) => {
   lines.forEach(line => {
     const cleanLine = line.trim().replace(/\t+/g, " ").replace(/ {2,}/g, " ");
     const parts = cleanLine.split(" ");
+    const oreNameIndex = parts.findIndex(p => isNaN(parseFloat(p)));
+    if (oreNameIndex > -1 && parts[oreNameIndex].toLowerCase() === "compressed") {
+      parts.splice(oreNameIndex, 1);
+    }
     const numberIndex = parts.findIndex(p => !isNaN(parseFloat(p)));
     if (numberIndex === -1) return;
 
@@ -159,6 +163,10 @@ document.addEventListener("DOMContentLoaded", function () {
     lines.forEach(line => {
       const cleanLine = line.trim().replace(/\t+/g, " ").replace(/ {2,}/g, " ");
       const parts = cleanLine.split(" ");
+    const oreNameIndex = parts.findIndex(p => isNaN(parseFloat(p)));
+    if (oreNameIndex > -1 && parts[oreNameIndex].toLowerCase() === "compressed") {
+      parts.splice(oreNameIndex, 1);
+    }
       const numberIndex = parts.findIndex(p => !isNaN(parseFloat(p)));
       if (numberIndex === -1) return;
 
