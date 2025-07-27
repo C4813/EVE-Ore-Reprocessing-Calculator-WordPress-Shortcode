@@ -27,7 +27,7 @@ const oreData = {
   "Abyssal Bezdnacine": {
     "Tritanium": 42000.0,
     "Isogen": 5040.0,
-    "Megacyte": 135.0
+    "Megacyte": 134.0
   },
   "Hadal Bezdnacine": {
     "Tritanium": 44000.0,
@@ -237,18 +237,18 @@ const oreData = {
   },
   "Platinoid Omber": {
     "Pyerite": 104.0,
-    "Isogen": 87.0
+    "Isogen": 86.0
   },
   "Plagioclase": {
-    "Tritanium": 174.0,
+    "Tritanium": 175.0,
     "Mexallon": 70.0
   },
   "Azure Plagioclase": {
-    "Tritanium": 183.0,
+    "Tritanium": 184.0,
     "Mexallon": 74.0
   },
   "Rich Plagioclase": {
-    "Tritanium": 192.0,
+    "Tritanium": 193.0,
     "Mexallon": 77.0
   },
   "Sparkling Plagioclase": {
