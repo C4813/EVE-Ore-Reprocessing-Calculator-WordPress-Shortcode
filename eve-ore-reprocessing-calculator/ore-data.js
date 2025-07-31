@@ -268,16 +268,16 @@ const oreData = {
     "Morphite": 154.0
   },
   "Mordunium": {
-    "Pyerite": 88.0
-  },
-  "Plum Mordunium": {
-    "Pyerite": 92.0
-  },
-  "Prize Mordunium": {
     "Pyerite": 97.0
   },
-  "Plunder Mordunium": {
+  "Plum Mordunium": {
     "Pyerite": 101.0
+  },
+  "Prize Mordunium": {
+    "Pyerite": 107.0
+  },
+  "Plunder Mordunium": {
+    "Pyerite": 112.0
   },
   "Nocxite": {
     "Tritanium": 900.0,
@@ -364,19 +364,19 @@ const oreData = {
   },
   "Scordite": {
     "Tritanium": 150.0,
-    "Pyerite": 99.0
+    "Pyerite": 110.0
   },
   "Condensed Scordite": {
     "Tritanium": 158.0,
-    "Pyerite": 103.0
+    "Pyerite": 114.0
   },
   "Massive Scordite": {
     "Tritanium": 165.0,
-    "Pyerite": 110.0
+    "Pyerite": 119.0
   },
   "Glossy Scordite": {
     "Tritanium": 173.0,
-    "Pyerite": 114.0
+    "Pyerite": 125.0
   },
   "Spodumain": {
     "Tritanium": 48000.0,
