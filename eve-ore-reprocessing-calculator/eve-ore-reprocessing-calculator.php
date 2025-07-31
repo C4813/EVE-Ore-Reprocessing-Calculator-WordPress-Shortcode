@@ -2,7 +2,7 @@
 /*
 Plugin Name: EVE Ore Reprocessing Calculator
 Description: Adds a shortcode [reprocessing_calculator] to display an EVE Online Ore Reprocessing Calculator.
-Version: 2.1
+Version: 2.1.1
 Author: C4813
 */
 
