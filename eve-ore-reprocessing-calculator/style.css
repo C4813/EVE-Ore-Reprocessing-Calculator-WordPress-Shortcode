@@ -1,3 +1,5 @@
+/* style.css — added utility classes for CSP-friendliness; rest unchanged */
+
 .reprocessing-container {
   display: flex;
   justify-content: center;
@@ -70,6 +72,14 @@
   min-width: 60px;
   text-align: right;
 }
+
 .reprocessing-column select {
-  width: 220px; /* Match this to the Structure box width */
+  width: 220px;
 }
+
+/* New utility classes to replace inline styles */
+.text-center { text-align: center; }
+.note { margin-top: 20px; font-size: 75%; font-weight: bold; }
+.result-wrap { text-align: center; margin-top: 30px; }
+.textarea-wide { width: 500px; text-align: center; margin-bottom: 15px; }
+.mt-15 { margin-top: 15px; }
